@@ -6,6 +6,7 @@ Register/Login for Time Management and Scheduling System this will collect the d
 ## Instruction
 You need to create a folder on  your C://xampp/htdocs directory
 I created Projects folder here:
+
 ![image](https://user-images.githubusercontent.com/93307570/139634063-7885027d-d2ec-4cc9-926f-68970bd7f6e3.png)
 
 After that you can now download the files  `login.php` , `register.php` , `connection.php`and `users.sql`
@@ -20,6 +21,7 @@ For the database, rename/create a `user` database.
 ![image](https://user-images.githubusercontent.com/93307570/139634851-5566a6c9-c0f7-4709-a84a-cf235cad5ead.png)
 
 Then Open the `user` database and import the `users.sql`  C://xampp/htdocs/`your newly-created folder name` -- C:/xampp/htdocs/Projects
+
 ![image](https://user-images.githubusercontent.com/93307570/139635080-a12b59e3-d7f4-40d4-9e54-3e167ac8dbf2.png)
 
 ## Test Run
