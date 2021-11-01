@@ -1,11 +1,10 @@
 
-# Notification Service/System
-A microservice for the Time Management and Scheduling System that handles sending notification to the users about their schedule via SMS or Email.
+# Register/Login 
+Register/Login for Time Management and Scheduling System this will collect the data of user and will save it on the database.
 
-[![Notification System](https://github.com/drnmm/time-management-system/actions/workflows/onpush-notif-service.yml/badge.svg)](https://github.com/drnmm/time-management-system/actions/workflows/onpush-notif-service.yml)
-[![Docker Build](https://github.com/drnmm/time-management-system/workflows/Docker%20Build/badge.svg)](https://github.com/drnmm/time-management-system/actions/workflows/docker-build.yml)
 
 ## Instruction
+Download the files  `login.php` , `verify.php`, `register.php` , `connection.php`and 
 Rename the file `.env.sample` in the `src/` folder to `.env` then edit and replace the content with your API key.
 ```
 TWILIO_AUTH_TOKEN="xxxxxxxxxxxxxxxxxxxxx"
