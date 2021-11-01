@@ -16,6 +16,7 @@ And move these files on C://xampp/htdocs/`your newly-created folder name` -- C:/
 ![image](https://user-images.githubusercontent.com/93307570/139634528-df2c2605-3608-4d91-b95f-3d6a8de1d188.png)
 
 For the database, rename/create a `user` database.
+
 ![image](https://user-images.githubusercontent.com/93307570/139634851-5566a6c9-c0f7-4709-a84a-cf235cad5ead.png)
 
 Then Open the `user` database and import the `users.sql`  C://xampp/htdocs/`your newly-created folder name` -- C:/xampp/htdocs/Projects
@@ -26,7 +27,9 @@ To test the program  , open your browser and type localhost/`your newly-created 
 
 This will display the files from your folder
 
-![image](https://user-images.githubusercontent.com/93307570/139635463-24bfe640-202a-4869-a401-7b628e7f9989.png)
+![image](https://user-images.githubusercontent.com/93307570/139635614-1234bb18-cd25-41cd-a020-14487407b127.png)
+
+
 
 
 
