@@ -6,7 +6,7 @@ Register/Login for Time Management and Scheduling System this will collect the d
 ## Instruction
 You need to create a folder on  your C://xampp/htdocs directory
 
-I created Projects folder here:
+I created a folder here and named it Projects:
 
 ![image](https://user-images.githubusercontent.com/93307570/139634063-7885027d-d2ec-4cc9-926f-68970bd7f6e3.png)
 
