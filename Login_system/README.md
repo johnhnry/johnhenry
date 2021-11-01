@@ -4,30 +4,32 @@ Register/Login for Time Management and Scheduling System this will collect the d
 
 
 ## Instruction
-Download the files  `login.php` , `register.php` , `connection.php`and `users.sql`
+You need to create a folder on  your C://xampp/htdocs directory
+I created Projects folder here:
+![image](https://user-images.githubusercontent.com/93307570/139634063-7885027d-d2ec-4cc9-926f-68970bd7f6e3.png)
 
-```
-TWILIO_AUTH_TOKEN="xxxxxxxxxxxxxxxxxxxxx"
-TWILIO_ACCOUNT_SID="xxxxxxxxxxxxxxxxxxxxx"
-TWILIO_SERVICE_SID="xxxxxxxxxxxxxxxxxxxxxxx"
-MAILGUN_API_KEY="xxxxxxxxxxxxxxxxxxxxxxxx"
-MAILGUN_EMAIL_DOMAIN="example.com"
-```
-To test the program just got the `src/` folder then run `python app.py`
+After that you can now download the files  `login.php` , `register.php` , `connection.php`and `users.sql`
 
-> Environment Variable Definitions
-
-ENV VAR | Notes
---- | ---
-TWILIO_AUTH_TOKEN | Your Twilio account authentication token.
-TWILIO_ACCOUNT_SID | Your Twilio account SID.
-TWILIO_SERVICE_SID | Twilio Notify service SID.
-MAILGUN_API_KEY | Generated API sending key on `mailgun.com`
-MAILGIN_EMAIL_DOMAIN | Your domain name that you are using on `mailgun.com`
+And move these files on C://xampp/htdocs/`your newly-created folder name` -- C:/xampp/htdocs/Projects
 
 
-### Using docker and docker-compose
-To build the docker image and run the image into the container just use `docker-compose` command from the `notificatin-system/` directory:
-```
-docker-compose up --build
-```
+![image](https://user-images.githubusercontent.com/93307570/139634528-df2c2605-3608-4d91-b95f-3d6a8de1d188.png)
+
+For the database, rename/create a `user` database.
+![image](https://user-images.githubusercontent.com/93307570/139634851-5566a6c9-c0f7-4709-a84a-cf235cad5ead.png)
+
+Then Open the `user` database and import the `users.sql`  C://xampp/htdocs/`your newly-created folder name` -- C:/xampp/htdocs/Projects
+![image](https://user-images.githubusercontent.com/93307570/139635080-a12b59e3-d7f4-40d4-9e54-3e167ac8dbf2.png)
+
+## Test Run
+To test the program  , open your browser and type localhost/`your newly-created folder name`  -- localhost/Projects
+
+This will display the files from your folder
+
+![image](https://user-images.githubusercontent.com/93307570/139635463-24bfe640-202a-4869-a401-7b628e7f9989.png)
+
+
+
+
+
+
