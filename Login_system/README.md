@@ -4,7 +4,7 @@ Register/Login for Time Management and Scheduling System this will collect the d
 
 
 ## Instruction
-Download the files  `login.php` , `verify.php`, `register.php` , `connection.php`and 
+Download the files  `login.php` , `register.php` , `connection.php`and `users.sql`
 Rename the file `.env.sample` in the `src/` folder to `.env` then edit and replace the content with your API key.
 ```
 TWILIO_AUTH_TOKEN="xxxxxxxxxxxxxxxxxxxxx"
