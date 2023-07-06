@@ -1,4 +1,4 @@
-- 👋 Hi, I’m @johnSantol
+- 👋 Hi, I’m @johnhenryliwag
 - 👀 I’m interested in pillows
 - 🌱 I’m currently learning how to code while sleeping
 
